@@ -107,7 +107,9 @@ The `autoUpdater` object has the following methods:
 
 Sets the `url` and initializes the auto updater.
 
-### `autoUpdater.setFeedURL(options)`  _(Deprecated)_
+**[Deprecated](modernization/property-updates.md)**
+
+### `autoUpdater.setFeedURL(options)`
 
 * `options` Object
   * `url` String
@@ -117,7 +119,9 @@ Sets the `url` and initializes the auto updater.
 
 Sets the `url` and initializes the auto updater.
 
-### `autoUpdater.getFeedURL()` _(Deprecated)_
+**[Deprecated](modernization/property-updates.md)**
+
+### `autoUpdater.getFeedURL()`
 
 Returns `String` - The current update feed URL.
 
